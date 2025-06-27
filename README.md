@@ -104,5 +104,3 @@ IDA (Iterative Deepening A)**: Bellek kullanımını azaltmak için derinlik ön
 Weighted A*: Sezgisel fonksiyona bir ağırlık eklenerek hız ve doğruluk arasında denge sağlanır.
 10. Özet
 A* algoritması, sezgisel bir yaklaşımla en kısa yolu bulan, verimli ve yaygın kullanılan bir algoritmadır. Performansı, sezgisel fonksiyonun kalitesine bağlıdır. Doğru bir sezgisel fonksiyonla, büyük ve karmaşık problemlerde bile hızlı ve optimal sonuçlar üretir. Algoritmanın esnekliği, oyunlardan robotik sistemlere kadar geniş bir kullanım alanı sağlar.
-
-Eğer daha fazla örnek, kodlama detayları veya belirli bir uygulama hakkında bilgi istersen, lütfen belirt!
