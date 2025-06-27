@@ -8,6 +8,7 @@ A* algoritması, sezgisel fonksiyonun (h(n)) kabul edilebilir (admissible) ve tu
 
 Kabul edilebilir (Admissible): h(n) fonksiyonu, gerçek maliyeti asla fazla tahmin etmemelidir (h(n) ≤ gerçek maliyet).
 Tutarlı (Consistent): Herhangi bir düğüm için, bir komşu düğüme geçiş maliyeti ve sezgisel tahmin arasındaki ilişki tutarlı olmalıdır. Yani, h(n) ≤ c(n, n') + h(n') (burada c(n, n') iki düğüm arasındaki maliyettir).
+
 2. A Algoritmasının Çalışma Mantığı*
 A* algoritması, bir öncelik kuyruğu (priority queue) kullanarak çalışır ve aşağıdaki adımları izler:
 
@@ -26,6 +27,7 @@ Komşu açık listedeyse, yeni hesaplanan g(n) değeri daha düşükse, maliyetl
 Sonlandırma:
 Hedef düğüme ulaşıldığında, parent bilgileri kullanılarak yol tersine çevrilir ve en kısa yol elde edilir.
 Eğer açık liste boşalırsa ve hedefe ulaşılamazsa, yol bulunamaz.
+
 3. A Algoritmasının Pseudocode'u*
 
 "function A*(başlangıç, hedef):
